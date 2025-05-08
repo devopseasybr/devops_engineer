@@ -6,7 +6,7 @@ Assim, desenvolvedores de softwares e operadores de infra estrutura trabalham em
 <br>
 
 <h1 align="center" style="border-bottom: none">
-    <img alt="Docker" src="../imagens/eng-devops.png" width="600" height="200"><br>
+    <img alt="Docker" src="../img/eng-devops.png" width="600" height="200"><br>
 </h1>
 
 Devops, é a junção das siglas **DEV**(desenvolvimento) e **OPS**(operação). 
@@ -81,27 +81,27 @@ A tabela abaixo, lhe ajudará a entender de forma simples, os estágios de um pr
 <table border="1" style="width:100%; border-collapse: collapse;">
 
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/planejar.png" width="100" height="100"><br><h6><center>Planejar(plan)</center></h6>
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/planejar.png" width="100" height="100"><br><h6><center>Planejar(plan)</center></h6>
     <td>Definir o que precisa ser feito;<br>Como será feito;<br>Organizar as atividades.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/construir.png" width="100" height="100"><br><h6><center>Desenvolver(code)</center></h6>
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/construir.png" width="100" height="100"><br><h6><center>Desenvolver(code)</center></h6>
     <td>Criar os códigos;<br>Controlar as versões;<br>Documentar as atividades.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/bug.png" width="100" height="100"><br><h6><center>Construir(build)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/bug.png" width="100" height="100"><br><h6><center>Construir(build)</center></h6></td>
     <td>Gerar as primeiras versões;<br>Realizar testes primários;<br>Resolver bugs do código.</td>
 </tr>
 
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/testar.png" width="100" height="100"><br><h6><center>Testar(test)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/testar.png" width="100" height="100"><br><h6><center>Testar(test)</center></h6></td>
     <td>Funcionalidades do sistema;<br>Integrações;<br>Teste de infraestrutura.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/entregar.png" width="100" height="100"><br><h6><center>Entregar(release)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/entregar.png" width="100" height="100"><br><h6><center>Entregar(release)</center></h6></td>
     <td>Lançamento do software ou funcionalidade;<br>Escalar e realizar manutenções;<br>Alterações da infraestrutura.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/implantar.png" width="100" height="100"><br><h6><center>Implantar(deploy)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/implantar.png" width="100" height="100"><br><h6><center>Implantar(deploy)</center></h6></td>
     <td>Instalação do sistema;<br>Pode ser encapsulado a um contêiner;<br>A implantação ocorre de forma automática.</td>
 </tr>
 
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="../imagens/operar.png" width="100" height="100"><br><h6><center>Operar(operate)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="../img/operar.png" width="100" height="100"><br><h6><center>Operar(operate)</center></h6></td>
     <td>Modificar um determinado comportamento;<br>Escalar e realizar manutenções;<br>Alterações na infraestrutura.</td>
-    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="../imagens/monitorar.png" width="100" height="100"><br><h6><center>Monitorar(monitor)</td>
+    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="../img/monitorar.png" width="100" height="100"><br><h6><center>Monitorar(monitor)</td>
     <td>Observar o comportamento da aplicação;<br>Criar dashboards;<br>Criar insumos para o time de dev e infra.</td>
 </tr>
 
@@ -117,14 +117,14 @@ Atualmente(2023), as ferramentas descritas abaixo, são as mais utilizadas pelas
 
 |ESTÁGIO|FERRAMENTAS|DESCRIÇÃO|
 |:---:|:---:|:---|
-PLAN (planejamento)| <a href="https://miro.com/pt/"><img src="../imagens/miro.png" title="Miro" height="50"/></a> <a href="https://excalidraw.com/"><img src="../imagens/excalidraw.png" title="Excalidraw" height="50"/></a> | **Miro** - Plataforma visual colaborativa em formato de lousa online.<br>**Excalidraw** - Ferramenta online gratuita de desenho colaborativo.
-CODE (desenvolvimento)| <a href="https://git-scm.com/"><img src="../imagens/git.png" title="GIT" height="50"/></a> <a href="https://www.atlassian.com/software/confluence"><img src="../imagens/confluence.png" title="Confluence" height="50"/></a> <a href="https://www.atlassian.com/software/jira"><img src="../imagens/jira.png" title="Jira" height="50"/></a>| **GIT** - Controle de versionamento de código. _Confluence_ - Documentação. **Jira** - Controle das atividades.
-BUILD (construção)|<a href="https://www.maven.apache.org"><img src="../imagens/maven.png" title="Maven" height="50"/></a>  <a href="https://www.npmjs.com/"><img src="../imagens/npm.png" title="NPM" height="50"/></a>  | **Maven** - Utilizado para realizar o build de código Java. **_NPM_** - Utilizado para realizar o build de código NodeJS. 
-Test (Testes)| <a href="https://junit.org/junit5/"><img src="../imagens/junit.png" title="Junit" height="50"/></a><a href="https://www.selenium.dev/"><img src="../imagens/selenium.png" title="Selenium" height="50"/></a><a href="https://www.selenium.dev/"><img src="../imagens/jmeter.png" title="Selenium" height="50"/>| **JUnit** - Ferramenta utilizada para a realizaçao de testes unitários. <br>**Selenium** - Ferramenta utilizada para a realização de telas/fluxos.<br>**Jmeter** - testes de desempenho, carga e stress em aplicações.
-RELEASE (entrega)|<a href="https://www.jenkins.io"><img src="../imagens/jenkins.png" title="Jenkins" height="50"/></a> <a href="https://www.gitlab.com"><img src="../imagens/gitlab.png" title="Gitlab" height="50"/></a>| Ambas as ferramentas, são utilizadas para a criação de pipelines CI/CD. 
-DEPLOY (implantação)| <a href="https://aws.amazon.com/pt/"><img src="../imagens/aws.png" title="AWS" height="50"/></a> <a href="https://cloud.google.com/"><img src="../imagens/gcp.png" title="GCP" height="50"/></a><a href="https://cloud.google.com/"><img src="../imagens/azure.png" title="GCP" height="50"/></a><a href="https://www.docker.com/"><img src="../imagens/docker.png" title="Docker" height="50"/></a> | **AWS, GCP, Azure** - Provedores Cloud, que oferecem diversos recursos computacionais para a implantação de sistemas. <br>**Docker** - Ferramenta que facilita a criação e administração de ambientes isolados. Ele possibilita o empacotamento de uma aplicação dentro de um contêiner, se tornando portátil para qualquer outro host que contenha o Docker instalado.
-OPERATE (operação)| <a href="https://kubernetes.io/"><img src="../imagens/kubernetes.png" title="Kubernetes" height="50"/></a>| **Kubernetes** - Ferramenta de orquestração de contêineres.
-MONITOR (monitoração)| <a href="https://www.zabbix.com/"><img src="../imagens/zabbix.png" title="Zabbix" height="50"/></a> <a href="https://prometheus.io/"><img src="../imagens/prometheus.png" title="Prometheus" height="50"/></a> <a href="https://www.splunk.com/"><img src="../imagens/splunk.png" title="Splunk" height="50"/></a><a href="https://www.grafana.com"><img src="../imagens/grafana.png" title="Grafana" height="50"/></a> | **Zabbix** - Monitoração da infraestrutura como: CPU, Memória, Disco, etc. <br>**Prometheus** - Monitoração da aplicação como: métricas e alertas. <br>**Splunk** - Realiza a observabilidade do ambiente.<br> **Grafana** - Conecta nas demais ferramentas de monitoração, apresentando diversos dashboards pré-configurados.
+PLAN (planejamento)| <a href="https://miro.com/pt/"><img src="../img/miro.png" title="Miro" height="50"/></a> <a href="https://excalidraw.com/"><img src="../img/excalidraw.png" title="Excalidraw" height="50"/></a> | **Miro** - Plataforma visual colaborativa em formato de lousa online.<br>**Excalidraw** - Ferramenta online gratuita de desenho colaborativo.
+CODE (desenvolvimento)| <a href="https://git-scm.com/"><img src="../img/git.png" title="GIT" height="50"/></a> <a href="https://www.atlassian.com/software/confluence"><img src="../img/confluence.png" title="Confluence" height="50"/></a> <a href="https://www.atlassian.com/software/jira"><img src="../img/jira.png" title="Jira" height="50"/></a>| **GIT** - Controle de versionamento de código. _Confluence_ - Documentação. **Jira** - Controle das atividades.
+BUILD (construção)|<a href="https://www.maven.apache.org"><img src="../img/maven.png" title="Maven" height="50"/></a>  <a href="https://www.npmjs.com/"><img src="../img/npm.png" title="NPM" height="50"/></a>  | **Maven** - Utilizado para realizar o build de código Java. **_NPM_** - Utilizado para realizar o build de código NodeJS. 
+Test (Testes)| <a href="https://junit.org/junit5/"><img src="../img/junit.png" title="Junit" height="50"/></a><a href="https://www.selenium.dev/"><img src="../img/selenium.png" title="Selenium" height="50"/></a><a href="https://www.selenium.dev/"><img src="../img/jmeter.png" title="Selenium" height="50"/>| **JUnit** - Ferramenta utilizada para a realizaçao de testes unitários. <br>**Selenium** - Ferramenta utilizada para a realização de telas/fluxos.<br>**Jmeter** - testes de desempenho, carga e stress em aplicações.
+RELEASE (entrega)|<a href="https://www.jenkins.io"><img src="../img/jenkins.png" title="Jenkins" height="50"/></a> <a href="https://www.gitlab.com"><img src="../img/gitlab.png" title="Gitlab" height="50"/></a>| Ambas as ferramentas, são utilizadas para a criação de pipelines CI/CD. 
+DEPLOY (implantação)| <a href="https://aws.amazon.com/pt/"><img src="../img/aws.png" title="AWS" height="50"/></a> <a href="https://cloud.google.com/"><img src="../img/gcp.png" title="GCP" height="50"/></a><a href="https://cloud.google.com/"><img src="../img/azure.png" title="GCP" height="50"/></a><a href="https://www.docker.com/"><img src="../img/docker.png" title="Docker" height="50"/></a> | **AWS, GCP, Azure** - Provedores Cloud, que oferecem diversos recursos computacionais para a implantação de sistemas. <br>**Docker** - Ferramenta que facilita a criação e administração de ambientes isolados. Ele possibilita o empacotamento de uma aplicação dentro de um contêiner, se tornando portátil para qualquer outro host que contenha o Docker instalado.
+OPERATE (operação)| <a href="https://kubernetes.io/"><img src="../img/kubernetes.png" title="Kubernetes" height="50"/></a>| **Kubernetes** - Ferramenta de orquestração de contêineres.
+MONITOR (monitoração)| <a href="https://www.zabbix.com/"><img src="../img/zabbix.png" title="Zabbix" height="50"/></a> <a href="https://prometheus.io/"><img src="../img/prometheus.png" title="Prometheus" height="50"/></a> <a href="https://www.splunk.com/"><img src="../img/splunk.png" title="Splunk" height="50"/></a><a href="https://www.grafana.com"><img src="../img/grafana.png" title="Grafana" height="50"/></a> | **Zabbix** - Monitoração da infraestrutura como: CPU, Memória, Disco, etc. <br>**Prometheus** - Monitoração da aplicação como: métricas e alertas. <br>**Splunk** - Realiza a observabilidade do ambiente.<br> **Grafana** - Conecta nas demais ferramentas de monitoração, apresentando diversos dashboards pré-configurados.
 
 ---
 
@@ -142,7 +142,7 @@ Ao se utilizar da cultura devops para o desenvolvimento e implantação de softw
     - Recursos computacionais utilizados;
     - Outros
 
-## <img src="../imagens/pipeline.png" title="Estágios de desenvolvimento" height="20"/> Pipeline CI/CD
+## <img src="../img/pipeline.png" title="Estágios de desenvolvimento" height="20"/> Pipeline CI/CD
 A pipeline CI/CD (Integração Contínua e Entrega/Implantação Contínua) é uma automação estruturada que guia o código desde o desenvolvimento até a produção. Ela permite que mudanças em software sejam testadas, validadas, empacotadas e implantadas de forma automática e contínua, com o mínimo de intervenção humana.
 
 ```mermaid
@@ -215,7 +215,7 @@ Quanto as siglas, temos:
 habilidades e conhecimentos necessários para fazer o trabalho e compartilhar ou adquirir essas
 habilidades conforme necessário.
 
-![Linux](../imagens/metodologias.png "Metodologias")
+![Linux](../img/metodologias.png "Metodologias")
 
 #### **Scrum TEAM**
 Os membros possuem todas as
@@ -318,8 +318,21 @@ A tabela abaixo, lhe ajudará a entender o significado das siglas utilizadas na 
 
 --- 
 
-# 👷🏻 Devops Engineer
-O [Engenheiro Devops](https://www.coursera.org/articles/devops-engineer), é um pofissional de tecnologia no qual tem a função de ajudar desenvolvedores e analistas de infraestrutura, a gerenciar, automatizar e integrar ferramentas computacionais.
+# 👷🏻 Competências Técnicas
+O [Engenheiro Devops](https://www.coursera.org/articles/devops-engineer), é um pofissional de tecnologia no qual tem a função de ajudar desenvolvedores e analistas de infraestrutura, a gerenciar, automatizar e integrar ferramentas computacionais.  
+
+Pode ser entendido como um arquiteto de automações e integrações, garantindo que o ciclo de vida do software seja rápido, seguro e confiável.  
+
+Isso torna-se possível, através do conhecimento necessário de diversas ferramentas tecnológicas no qual são seguimentadas conforme abaixo:  
+
+- ☁️ Computação em Nuvem;
+- 💻 Sistema Operacional;
+- 🏗️ Infraestrutura como código;
+- 🧰 Build;
+- 🐳 Conteinerização da aplicação;
+- 📊 Monitoração da aplicação e infraestrutura;
+- 🤖 Automação de processos e rotinas;
+- 🙋🏻‍♀️ Colaboração e Documentação Técnica.
 
 ## Soft Skill
 
@@ -332,7 +345,7 @@ O [Engenheiro Devops](https://www.coursera.org/articles/devops-engineer), é um 
 ## Hard Skill
 
 - Saber operar um Sistema Operacional;
-- Criar imagens e gerenciar contêineres;
+- Criar img e gerenciar contêineres;
 - Criar pipelines de CI/CD;
 - Automatizar rotinas;
 - Entender a leitura de algumas linguagens de programação;
@@ -343,13 +356,13 @@ O Engenheiro Devops, precisará entender a sintaxe de alguns arquivos, que são 
 
 <table border="0" style="width:100%; border-collapse: collapse;">
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/json.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/shell.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/terraform.png" width="100" height="100">   
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/python.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/yaml.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/markdown.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../imagens/xml.png" width="100" height="100">  
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/json.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/shell.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/terraform.png" width="100" height="100">   
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/python.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/yaml.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/markdown.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="../img/xml.png" width="100" height="100">  
 </tr>
 
 <tr>
@@ -553,127 +566,3 @@ curl -X DELETE https://api.exemplo.com/users/123
 ```
 
 ---
-
-# 👷🏻 Competências Técnicas
-O engenheiro DevOps é um arquiteto de automações e integrações, garantindo que o ciclo de vida do software seja rápido, seguro e confiável. Isso torna-se possível, através do conhecimento necessário de diversas ferramentas tecnológicas no qual são seguimentadas conforme abaixo:
-
-- ☁️ Computação em Nuvem;
-- 💻 Sistema Operacional;
-- 🏗️ Infraestrutura como código;
-- 🧰 Build;
-- 🐳 Conteinerização da aplicação;
-- 📊 Monitoração da aplicação e infraestrutura;
-- 🤖 Automação de processos e rotinas;
-- 🙋🏻‍♀️ Colaboração e Documentação Técnica.
-
-Além disso, é muito 
-
----
-
-
-
-## Computação em nuvem (Cloud Provider)
-A computação em nuvem nada mas é que um conjuntos de serviços computacionais oferecidos para serem utilizados, conforme a necessidade da Empresa.
-
-Esse recursos, são cobrados pelo seu tempo de uso e podem ser cancelados a qualquer momento.
-
-### Tipos de nuvem
-Temos três tipos de nuvem, sendo elas:
-
-**Pública**  
- - Não tenho controle/privacidade dos dados. 
- - Infraestrutura é de responsabilidade do provedor. 
- - Mais fácil e barato pela implementação. 
- - Só paga o que usa.
-
-**Privada**   
- - A infraestrutura não é compartilhada entre os clientes. 
- - Perde em custo e ganha em segurança.
-
-**Híbrida** 
-- Bastante utilizada. 
-- Duas Cloud's que se interconectam. 
-- Dados na privada e aplicação na pública. 
-
-### Serviços oferecidos
-
-|**SaaS - Software as a Service (EndUsers)**|**Características**|
-|:---|:---|
-|<center><img src="./img/sas.png" title="Estágios de desenvolvimento" height="250"/></center> |- Executar um software, sem precisar instalar alguma coisa na máquina.<br>- Serviço sobre demanda.<br>- Os recursos são gerenciados pelo vendor(cloud provider)- Exemplo: Gmail, google drive, etc<br>- Não precisa de licença e atualização de softwares.|
-
-|**PaaS - Plataform as a Service (Desenvolvedores)**|**Características**|  
-|:---|:---|
-|<center><img src="./img/paas.png" title="Estágios de desenvolvimento" height="250"/></center> |- S.O., linguagem de programação e banco de dados;<br>- Infraestrutura de servidores e plataforma para os desenvolvedores trabalharem;<br>- Flexibilidade para criar aplicação;<br>- Não consegue mexer na infraestrutura.|        
-
-|**IaaS - Infrastucture as a Service (Sysadmins)** |**Características**| 
-|:---|:---|
-|<center><img src="./img/iaas.png" title="Estágios de desenvolvimento" height="250"/></center> |- Criação de infraestrutura de datacenter<br>- Balanceadores e afins<br>- Acesso a tudo.<br>- Não tem acesso a camada de virtualização.| 
-
-### Tipos de recursos computacionais 
-Todos os provedores cloud's praticamente oferencem os mesmo tipos de recursos computacionais, mudando apenas o nome comercial dado para tal recurso.
-
-||<h1 align="center"><img src="./img/aws.png" height="50"/></h1>|<h1 align="center"><img src="./img/gcp.png" height="50"/></h1>|<h1 align="center"><img src="./img/azure.png" height="50"/></h1>
-|---:|:---:|:---:|:---|
-|**Banco de dados**|RDS|SQL|Microsoft Azure SQL Database<center>
-|**Armazenamento de arquivos**|S3|Cloud Storage|XPTO<center>
-|**Máquinas virtuais**|EC2|GCE|XPTO
-
-
-⚠️ **_Por mais que a funcionalidade dos recursos oferecidos pelos provedores clouds, tenham as mesmas finalidades, a maneira de como operar eles são diferentes. Portanto, o Engenheiro Devops precisará estudar cada produto de forma separada conforme o provedor em que a empresa contratou._**
-
-### Principais características
-Ao se adotar um provedor cloud para criar toda uma determinada infraestutura computacional, o responsável por essa atividade que pode ser um Engenheiro de Cloud ou o próprio engenheiro Devops precisa entender como esses recursos computacionais se comunicam entre si. 
-
-Isso é muito importante, pois muitos problemas ocorrem nessa etapa do processo e principalmente quando se usa uma ferramenta de provisionamento como o Terraform, Cloudformation, etc.
-
-Esses recursos são integrados, conforme o desenho abaixo:
-
-<center><img src="./img/cloud_recursos.png" height="400"/></center>
-
-
-Roles
-
-Policies
-
-⚠️ **Computação em nuvem não é um data center.**
-
----
-## Sistema Operacional (Linux)
-
----
-## Sistema Operacional (Linux)
-O principal Sistema Operacional utilizado pelos provedores Cloud é o Linux. Assim o Engenheiro Devops, precisará aprender a operar esse S.O. em alguns quesitos como:
-
-- Saber trabalhar com o terminal de comandos;
-- Manipular os arquivos;
-- Gerenciar processos, programas e recursos de hardware;
-- Rede;
-- Logs.
-
----
-## Infra estrutura como código (Infrascode)
-
-### Sub-título
-
----
-## Gerenciador de configuração (Config. Manager)
-
-### Sub-título
-
----
-## Conteinerização de aplicações (Container)
-
-### Sub-título
-
----
-## Monitoração (Observability)
-
-### Sub-título
-
----
-## Automação de rotinas (automation)
-
-### Sub-título
-
----
-
