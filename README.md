@@ -6,7 +6,7 @@ Assim, desenvolvedores de softwares e operadores de infra estrutura trabalham em
 <br>
 
 <h1 align="center" style="border-bottom: none">
-    <img alt="Docker" src="../img/eng-devops.png" width="600" height="200"><br>
+    <img alt="Docker" src="./img/eng-devops.png" width="600" height="200"><br>
 </h1>
 
 Devops, é a junção das siglas **DEV**(desenvolvimento) e **OPS**(operação). 
@@ -81,27 +81,27 @@ A tabela abaixo, lhe ajudará a entender de forma simples, os estágios de um pr
 <table border="1" style="width:100%; border-collapse: collapse;">
 
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/planejar.png" width="100" height="100"><br><h6><center>Planejar(plan)</center></h6>
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/planejar.png" width="100" height="100"><br><h6><center>Planejar(plan)</center></h6>
     <td>Definir o que precisa ser feito;<br>Como será feito;<br>Organizar as atividades.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/construir.png" width="100" height="100"><br><h6><center>Desenvolver(code)</center></h6>
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/construir.png" width="100" height="100"><br><h6><center>Desenvolver(code)</center></h6>
     <td>Criar os códigos;<br>Controlar as versões;<br>Documentar as atividades.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/bug.png" width="100" height="100"><br><h6><center>Construir(build)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/bug.png" width="100" height="100"><br><h6><center>Construir(build)</center></h6></td>
     <td>Gerar as primeiras versões;<br>Realizar testes primários;<br>Resolver bugs do código.</td>
 </tr>
 
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/testar.png" width="100" height="100"><br><h6><center>Testar(test)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/testar.png" width="100" height="100"><br><h6><center>Testar(test)</center></h6></td>
     <td>Funcionalidades do sistema;<br>Integrações;<br>Teste de infraestrutura.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/entregar.png" width="100" height="100"><br><h6><center>Entregar(release)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/entregar.png" width="100" height="100"><br><h6><center>Entregar(release)</center></h6></td>
     <td>Lançamento do software ou funcionalidade;<br>Escalar e realizar manutenções;<br>Alterações da infraestrutura.</td>
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/implantar.png" width="100" height="100"><br><h6><center>Implantar(deploy)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/implantar.png" width="100" height="100"><br><h6><center>Implantar(deploy)</center></h6></td>
     <td>Instalação do sistema;<br>Pode ser encapsulado a um contêiner;<br>A implantação ocorre de forma automática.</td>
 </tr>
 
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="../img/operar.png" width="100" height="100"><br><h6><center>Operar(operate)</center></h6></td>
+    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="./img/operar.png" width="100" height="100"><br><h6><center>Operar(operate)</center></h6></td>
     <td>Modificar um determinado comportamento;<br>Escalar e realizar manutenções;<br>Alterações na infraestrutura.</td>
-    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="../img/monitorar.png" width="100" height="100"><br><h6><center>Monitorar(monitor)</td>
+    <td><h1 align="center" style="border-bottom: none"><img alt="Docker" src="./img/monitorar.png" width="100" height="100"><br><h6><center>Monitorar(monitor)</td>
     <td>Observar o comportamento da aplicação;<br>Criar dashboards;<br>Criar insumos para o time de dev e infra.</td>
 </tr>
 
@@ -117,14 +117,14 @@ Atualmente(2023), as ferramentas descritas abaixo, são as mais utilizadas pelas
 
 |ESTÁGIO|FERRAMENTAS|DESCRIÇÃO|
 |:---:|:---:|:---|
-PLAN (planejamento)| <a href="https://miro.com/pt/"><img src="../img/miro.png" title="Miro" height="50"/></a> <a href="https://excalidraw.com/"><img src="../img/excalidraw.png" title="Excalidraw" height="50"/></a> | **Miro** - Plataforma visual colaborativa em formato de lousa online.<br>**Excalidraw** - Ferramenta online gratuita de desenho colaborativo.
-CODE (desenvolvimento)| <a href="https://git-scm.com/"><img src="../img/git.png" title="GIT" height="50"/></a> <a href="https://www.atlassian.com/software/confluence"><img src="../img/confluence.png" title="Confluence" height="50"/></a> <a href="https://www.atlassian.com/software/jira"><img src="../img/jira.png" title="Jira" height="50"/></a>| **GIT** - Controle de versionamento de código. _Confluence_ - Documentação. **Jira** - Controle das atividades.
-BUILD (construção)|<a href="https://www.maven.apache.org"><img src="../img/maven.png" title="Maven" height="50"/></a>  <a href="https://www.npmjs.com/"><img src="../img/npm.png" title="NPM" height="50"/></a>  | **Maven** - Utilizado para realizar o build de código Java. **_NPM_** - Utilizado para realizar o build de código NodeJS. 
-Test (Testes)| <a href="https://junit.org/junit5/"><img src="../img/junit.png" title="Junit" height="50"/></a><a href="https://www.selenium.dev/"><img src="../img/selenium.png" title="Selenium" height="50"/></a><a href="https://www.selenium.dev/"><img src="../img/jmeter.png" title="Selenium" height="50"/>| **JUnit** - Ferramenta utilizada para a realizaçao de testes unitários. <br>**Selenium** - Ferramenta utilizada para a realização de telas/fluxos.<br>**Jmeter** - testes de desempenho, carga e stress em aplicações.
-RELEASE (entrega)|<a href="https://www.jenkins.io"><img src="../img/jenkins.png" title="Jenkins" height="50"/></a> <a href="https://www.gitlab.com"><img src="../img/gitlab.png" title="Gitlab" height="50"/></a>| Ambas as ferramentas, são utilizadas para a criação de pipelines CI/CD. 
-DEPLOY (implantação)| <a href="https://aws.amazon.com/pt/"><img src="../img/aws.png" title="AWS" height="50"/></a> <a href="https://cloud.google.com/"><img src="../img/gcp.png" title="GCP" height="50"/></a><a href="https://cloud.google.com/"><img src="../img/azure.png" title="GCP" height="50"/></a><a href="https://www.docker.com/"><img src="../img/docker.png" title="Docker" height="50"/></a> | **AWS, GCP, Azure** - Provedores Cloud, que oferecem diversos recursos computacionais para a implantação de sistemas. <br>**Docker** - Ferramenta que facilita a criação e administração de ambientes isolados. Ele possibilita o empacotamento de uma aplicação dentro de um contêiner, se tornando portátil para qualquer outro host que contenha o Docker instalado.
-OPERATE (operação)| <a href="https://kubernetes.io/"><img src="../img/kubernetes.png" title="Kubernetes" height="50"/></a>| **Kubernetes** - Ferramenta de orquestração de contêineres.
-MONITOR (monitoração)| <a href="https://www.zabbix.com/"><img src="../img/zabbix.png" title="Zabbix" height="50"/></a> <a href="https://prometheus.io/"><img src="../img/prometheus.png" title="Prometheus" height="50"/></a> <a href="https://www.splunk.com/"><img src="../img/splunk.png" title="Splunk" height="50"/></a><a href="https://www.grafana.com"><img src="../img/grafana.png" title="Grafana" height="50"/></a> | **Zabbix** - Monitoração da infraestrutura como: CPU, Memória, Disco, etc. <br>**Prometheus** - Monitoração da aplicação como: métricas e alertas. <br>**Splunk** - Realiza a observabilidade do ambiente.<br> **Grafana** - Conecta nas demais ferramentas de monitoração, apresentando diversos dashboards pré-configurados.
+PLAN (planejamento)| <a href="https://miro.com/pt/"><img src="./img/miro.png" title="Miro" height="50"/></a> <a href="https://excalidraw.com/"><img src="./img/excalidraw.png" title="Excalidraw" height="50"/></a> | **Miro** - Plataforma visual colaborativa em formato de lousa online.<br>**Excalidraw** - Ferramenta online gratuita de desenho colaborativo.
+CODE (desenvolvimento)| <a href="https://git-scm.com/"><img src="./img/git.png" title="GIT" height="50"/></a> <a href="https://www.atlassian.com/software/confluence"><img src="./img/confluence.png" title="Confluence" height="50"/></a> <a href="https://www.atlassian.com/software/jira"><img src="./img/jira.png" title="Jira" height="50"/></a>| **GIT** - Controle de versionamento de código. _Confluence_ - Documentação. **Jira** - Controle das atividades.
+BUILD (construção)|<a href="https://www.maven.apache.org"><img src="./img/maven.png" title="Maven" height="50"/></a>  <a href="https://www.npmjs.com/"><img src="./img/npm.png" title="NPM" height="50"/></a>  | **Maven** - Utilizado para realizar o build de código Java. **_NPM_** - Utilizado para realizar o build de código NodeJS. 
+Test (Testes)| <a href="https://junit.org/junit5/"><img src="./img/junit.png" title="Junit" height="50"/></a><a href="https://www.selenium.dev/"><img src="./img/selenium.png" title="Selenium" height="50"/></a><a href="https://www.selenium.dev/"><img src="./img/jmeter.png" title="Selenium" height="50"/>| **JUnit** - Ferramenta utilizada para a realizaçao de testes unitários. <br>**Selenium** - Ferramenta utilizada para a realização de telas/fluxos.<br>**Jmeter** - testes de desempenho, carga e stress em aplicações.
+RELEASE (entrega)|<a href="https://www.jenkins.io"><img src="./img/jenkins.png" title="Jenkins" height="50"/></a> <a href="https://www.gitlab.com"><img src="./img/gitlab.png" title="Gitlab" height="50"/></a>| Ambas as ferramentas, são utilizadas para a criação de pipelines CI/CD. 
+DEPLOY (implantação)| <a href="https://aws.amazon.com/pt/"><img src="./img/aws.png" title="AWS" height="50"/></a> <a href="https://cloud.google.com/"><img src="./img/gcp.png" title="GCP" height="50"/></a><a href="https://cloud.google.com/"><img src="./img/azure.png" title="GCP" height="50"/></a><a href="https://www.docker.com/"><img src="./img/docker.png" title="Docker" height="50"/></a> | **AWS, GCP, Azure** - Provedores Cloud, que oferecem diversos recursos computacionais para a implantação de sistemas. <br>**Docker** - Ferramenta que facilita a criação e administração de ambientes isolados. Ele possibilita o empacotamento de uma aplicação dentro de um contêiner, se tornando portátil para qualquer outro host que contenha o Docker instalado.
+OPERATE (operação)| <a href="https://kubernetes.io/"><img src="./img/kubernetes.png" title="Kubernetes" height="50"/></a>| **Kubernetes** - Ferramenta de orquestração de contêineres.
+MONITOR (monitoração)| <a href="https://www.zabbix.com/"><img src="./img/zabbix.png" title="Zabbix" height="50"/></a> <a href="https://prometheus.io/"><img src="./img/prometheus.png" title="Prometheus" height="50"/></a> <a href="https://www.splunk.com/"><img src="./img/splunk.png" title="Splunk" height="50"/></a><a href="https://www.grafana.com"><img src="./img/grafana.png" title="Grafana" height="50"/></a> | **Zabbix** - Monitoração da infraestrutura como: CPU, Memória, Disco, etc. <br>**Prometheus** - Monitoração da aplicação como: métricas e alertas. <br>**Splunk** - Realiza a observabilidade do ambiente.<br> **Grafana** - Conecta nas demais ferramentas de monitoração, apresentando diversos dashboards pré-configurados.
 
 ---
 
@@ -142,7 +142,7 @@ Ao se utilizar da cultura devops para o desenvolvimento e implantação de softw
     - Recursos computacionais utilizados;
     - Outros
 
-## <img src="../img/pipeline.png" title="Estágios de desenvolvimento" height="20"/> Pipeline CI/CD
+## <img src="./img/pipeline.png" title="Estágios de desenvolvimento" height="20"/> Pipeline CI/CD
 A pipeline CI/CD (Integração Contínua e Entrega/Implantação Contínua) é uma automação estruturada que guia o código desde o desenvolvimento até a produção. Ela permite que mudanças em software sejam testadas, validadas, empacotadas e implantadas de forma automática e contínua, com o mínimo de intervenção humana.
 
 ```mermaid
@@ -215,7 +215,7 @@ Quanto as siglas, temos:
 habilidades e conhecimentos necessários para fazer o trabalho e compartilhar ou adquirir essas
 habilidades conforme necessário.
 
-![Linux](../img/metodologias.png "Metodologias")
+![Linux](./img/metodologias.png "Metodologias")
 
 #### **Scrum TEAM**
 Os membros possuem todas as
@@ -356,13 +356,13 @@ O Engenheiro Devops, precisará entender a sintaxe de alguns arquivos, que são 
 
 <table border="0" style="width:100%; border-collapse: collapse;">
 <tr>
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/json.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/shell.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/terraform.png" width="100" height="100">   
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/python.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/yaml.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/markdown.png" width="100" height="100">
-    <td><h1 align="center" style="border-bottom: none"><img src="../img/xml.png" width="100" height="100">  
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/json.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/shell.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/terraform.png" width="100" height="100">   
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/python.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/yaml.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/markdown.png" width="100" height="100">
+    <td><h1 align="center" style="border-bottom: none"><img src="./img/xml.png" width="100" height="100">  
 </tr>
 
 <tr>
@@ -404,7 +404,7 @@ Born Again Shell
 ```sh
 #/bin/bash
 
-# Comentário...
+# Comentário..
 
 DATA: $(date)
 echo $DATA
@@ -436,12 +436,12 @@ variables:
   foo: bar
 
 before_script
-  - echo "Mensagem..."
+  - echo "Mensagem.."
 
 script:
   - Docker login
   - Docker pull nginx:latest
-  - Docker run -dit ... 
+  - Docker run -dit .. 
 ```
 
 **Arquivo [Markdown](https://www.markdownguide.org/)**  
